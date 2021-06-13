@@ -17,6 +17,10 @@ Code: beepBoop("5");
 Expected Output: "True"
 
 Test: "It will recognize "2" in the array"
-Code: beepBoop("5");
+Code: beepBoop("2");
+Expected Output: "True"
+
+Test: "It will recognize "1" in the array"
+Code: beepBoop("1");
 Expected Output: "True"
 
