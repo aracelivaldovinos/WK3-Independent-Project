@@ -27,3 +27,7 @@ Expected Output: "True"
 Test: "It will replace "3" in the array with "Won't you be my neighbor?"
 Code: beepBoop("3");
 Expected Output: "Won't you be my neighbor?"
+
+Test: "It will replace "2" in the array with "Won't you be my neighbor?"
+Code: beepBoop("3");
+Expected Output: "Boop!"
