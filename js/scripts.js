@@ -21,7 +21,11 @@ function beepBoop(userNum, array, string) {
     string = output.join().split(", ")
     for (let j=0; j<string.length; j++){
       if (string[j].includes("3")) {
-        string[j] = "Won't you be my neighbor?"
+        let newNum = string[j].replace("3", "Won't you be neighbor?")
+        return newNum
+
+
+        //string[j].replace("Won't you be my neighbor?") 
         
       }
       else if (string[j].includes("2"))  {
