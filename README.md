@@ -33,5 +33,5 @@ Code: beepBoop("2");
 Expected Output: "Boop!"
 
 Test: "It will replace "1" in the array with "Beep!"
-Code: beepBoop("2");
+Code: beepBoop("1");
 Expected Output: "Beep!"
