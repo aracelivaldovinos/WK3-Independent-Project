@@ -17,9 +17,9 @@ function beepBoop(userNum, array, str) {
   let output = []
   for (let i=0; i <=userNum; i+=1) {
     output.push(i)
-    
-    }
     return output
+    }
+    
 }
 
 
