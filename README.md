@@ -8,9 +8,12 @@ Test: "It will create a range of numbers from user number"
 Code: beepBoop("5");
 Expected Output: "[0,1,2,3,4,5]"
 
-Test: "It will convert new array with range of numbers to strings "
+Test: "It will convert new array with range of numbers to a string "
 Code: beepBoop("5");
 Expected Output: "["0","1","2","3","4","5"]"
 
+Test: "It will recognize "3" in the array"
+Code: beepBoop("5");
+Expected Output: "True"
 
 

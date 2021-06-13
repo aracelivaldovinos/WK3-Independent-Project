@@ -19,7 +19,12 @@ function beepBoop(userNum, array, string) {
     output.push(i)
     }
     string = output.join().split(", ")
-    return string
+    for (let i=0; i<string.length; i++){
+      if (string[i].includes("3")) {
+        return true
+      }
+      return false
+    }
 }
 
 
