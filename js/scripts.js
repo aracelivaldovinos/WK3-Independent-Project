@@ -23,6 +23,9 @@ function beepBoop(userNum, array, string) {
       if (string[i].includes("3")) {
         return true
       }
+      else if (string[i].includes("2"))  {
+        return true
+      }
       return false
     }
 }
