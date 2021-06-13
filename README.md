@@ -24,3 +24,6 @@ Test: "It will recognize "1" in the array"
 Code: beepBoop("1");
 Expected Output: "True"
 
+Test: "It will replace "3" in the array with "Won't you be my neighbor?"
+Code: beepBoop("3");
+Expected Output: "Won't you be my neighbor?"

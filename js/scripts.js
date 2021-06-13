@@ -21,7 +21,8 @@ function beepBoop(userNum, array, string) {
     string = output.join().split(", ")
     for (let i=0; i<string.length; i++){
       if (string[i].includes("3")) {
-        return true
+        string[i] = "Won't you be my neighbor?"
+        return string
       }
       else if (string[i].includes("2"))  {
         return true
