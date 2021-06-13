@@ -1,8 +1,17 @@
-function beepBoop (string) {
-  const number = parseInt(string)
-  const output = []
-  for (let i=0; i <=number; i+=1) {
-  output.push(i)
-  }
-  return output
-}
+//UI Logic
+$("document").ready(function(){
+$("form#formOne").submit(function(event){
+  event.preventDefault();
+  const text = $("input#word").val()
+  
+  $("#array").text(text)
+
+})
+});
+
+
+
+
+
+
+
