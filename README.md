@@ -28,6 +28,10 @@ Test: "It will replace "3" in the array with "Won't you be my neighbor?"
 Code: beepBoop("3");
 Expected Output: "Won't you be my neighbor?"
 
-Test: "It will replace "2" in the array with "Won't you be my neighbor?"
-Code: beepBoop("3");
+Test: "It will replace "2" in the array with "Boop!"
+Code: beepBoop("2");
 Expected Output: "Boop!"
+
+Test: "It will replace "1" in the array with "Beep!"
+Code: beepBoop("2");
+Expected Output: "Beep!"

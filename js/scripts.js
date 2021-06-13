@@ -25,11 +25,12 @@ function beepBoop(userNum, array, string) {
         return string
       }
       else if (string[i].includes("2"))  {
-        string[i] = "Beep!"
+        string[i] = "Boop!"
         return string
       }
       else if (string[i].includes("1"))  {
-        return true
+        string[i] = "Beep!"
+        return string
       }
       return false
     }
