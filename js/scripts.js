@@ -12,14 +12,14 @@ $("document").ready(function(){
 
 //Business Logic
 
-function beepBoop(userNum, array, str) {
+function beepBoop(userNum, array, string) {
   const number = parseInt(userNum)
   let output = []
   for (let i=0; i <=userNum; i+=1) {
     output.push(i)
-    return output
     }
-    
+    string = output.join().split(", ")
+    return string
 }
 
 
