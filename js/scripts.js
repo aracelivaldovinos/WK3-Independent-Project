@@ -1,20 +1,8 @@
-//UI Logic
-$("document").ready(function(){
-  $("form#formOne").submit(function(event){
-    event.preventDefault();
-    const number = $("input#number").val()
-    const arrayOutput = beepBoop(userNum)
-
-    $("#array").text(arrayOutput)
-    
-  });
-});
-
 //Business Logic
 
 function beepBoop(userNum) {
   const number = parseInt(userNum)
-  let output = []
+  let output = [ ]
   for (let i=0; i <=userNum; i+=1) {
     output.push(i);
     }
@@ -30,11 +18,21 @@ function beepBoop(userNum) {
         output[j] = "Beep!"
       }
     }
-    string = output.join().split(", ")
+    string = output.join().split(" , ")
         return string
 }
 
+//UI Logic
+$("document").ready(function(){
+  $("form#formOne").submit(function(event){
+    event.preventDefault();
+    const number = $("input#number").val()
+    const arrayOutput = beepBoop(number)
+
+    $("#output").text(arrayOutput)
     
+  });
+});
   
 
 

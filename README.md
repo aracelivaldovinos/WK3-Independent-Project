@@ -9,7 +9,7 @@
 * HTML
 * JavaScript
 * jQuery
-* 
+* CSS
 * Bootstrap
 
 
@@ -32,8 +32,8 @@ _The exceptions are written from least to most important._
 
 ## Known Bugs\Goals
 
-* 
-* 
+* There is no spacing between the items in the string
+
 
 ## Specs
 
