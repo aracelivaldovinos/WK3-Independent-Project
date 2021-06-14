@@ -47,10 +47,6 @@ _Test: "It will create a range of numbers from user number"_
 _Code: for (let i=0; i <=userNum; i+=1) {output.push(i)};_
 _Expected Output: "[0,1,2,3,4,5]"_
 
-_Test: "It will convert range of numbers to a string"_
-_Code: string = output.join().split(", ")_
-_Expected Output: "["0,1,2,3,4,5"]"_
-
 _Test: "It will replace "3" in the range of numbers with "Won't you be my neighbor"_
 _Code: if (output[j].toString().includes("3")) {_
 _output[j] = "Won't you be my neighbor?"}_
@@ -65,6 +61,10 @@ _Test: "It will replace "1" in the range of numbers with "Beep!"_
 _Code: else if (output[j].toString().includes("1")){_
 _output[j] = "Beep!"_
 _Expected Output: "["0,Beep!,2,3"]"_
+
+_Test: "It will join user input, replace 3, 2, 1 with according phrases and separate items with ,"_
+_Code: string = output.join().split(", ")_
+_Expected Output: "["0,Beep!,Boop!,Won't you be my neighbor?,4,5"]"_
 
 
 

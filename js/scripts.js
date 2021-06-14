@@ -28,12 +28,11 @@ function beepBoop(userNum) {
       }
       else if (output[j].toString().includes("1"))  {
         output[j] = "Beep!"
-        string = output.join().split(", ")
-        return string
-        
       }
     }
-      }
+    string = output.join().split(", ")
+        return string
+}
 
     
   
