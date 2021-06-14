@@ -9,7 +9,7 @@
 * HTML
 * JavaScript
 * jQuery
-* CSS
+* 
 * Bootstrap
 
 
