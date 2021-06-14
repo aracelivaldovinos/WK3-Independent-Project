@@ -18,10 +18,18 @@ function beepBoop(userNum) {
   for (let i=0; i <=userNum; i+=1) {
     output.push(i);
     }
-    string = output.join().split(", ")
+
+    for (let j=0; j < output.length; j++){
+      if (output[j].toString().includes("3")) {
+        output[j] = "Won't you be my neighbor?"
+        string = output.join().split(", ")
   
-  return output
+  return string
+      }
+
+    
 }  
+}
 
 
 

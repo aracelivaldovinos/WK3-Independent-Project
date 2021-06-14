@@ -51,6 +51,11 @@ _Test: "It will convert range of numbers to a string"_
 _Code: string = output.join().split(", ")_
 _Expected Output: "["0,1,2,3,4,5"]"_
 
+_Test: "It will replace "3" in the range of numbers with "Won't you be my neighbor"_
+_Code: if (output[j].toString().includes("3")) {_
+_output[j] = "Won't you be my neighbor?"}_
+_Expected Output: "["0,1,2,Won't you be my neighbor?"]"_
+
 
 
 
