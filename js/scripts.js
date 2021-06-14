@@ -18,8 +18,11 @@ function beepBoop(userNum) {
   for (let i=0; i <=userNum; i+=1) {
     output.push(i);
     }
+    string = output.join().split(", ")
+  
   return output
 }  
+
 
 
 

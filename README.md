@@ -44,12 +44,14 @@ _Code: const number = parseInt(userNum);_
 _Expected Output: 1_
 
 _Test: "It will create a range of numbers from user number"_
-_Code: for for (let i=0; i <=userNum; i+=1) {output.push(i)};_
+_Code: for (let i=0; i <=userNum; i+=1) {output.push(i)};_
 _Expected Output: "[0,1,2,3,4,5]"_
 
-_Test: "It will convert new array with range of numbers to a string"_
-_Code: beepBoop("5");_
+_Test: "It will convert range of numbers to a string"_
+_Code: string = output.join().split(", ")_
 _Expected Output: "["0,1,2,3,4,5"]"_
+
+
 
 
 
