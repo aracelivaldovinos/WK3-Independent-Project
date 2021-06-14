@@ -1,3 +1,42 @@
+# _Mr. Roboger's Neighborhood_
+
+#### _A web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with exceptions_
+
+#### By _Araceli Valdovinos_
+
+## Technologies Used
+
+* HTML
+* JavaScript
+* jQuery
+* CSS
+* Bootstrap
+
+
+
+## Description
+
+_This web application takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:_
+* _Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"_
+* _Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"_
+* _Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?_
+_The exceptions are written from least to most important._
+ 
+
+## Setup/Installation Requirements
+
+* _Clone the repository to desktop_
+* _Navigate inside the folder_
+* _open index.html_
+
+
+## Known Bugs\Goals
+
+* 
+* 
+
+## Specs
+
 Describe: beepBoop();
 
 Test: "It will convert user input string to number"
@@ -39,3 +78,11 @@ Expected Output: "Beep!"
 Test: "It will replace "3" in the array with "Won't you be my neighbor?"
 Code: beepBoop("3");
 Expected Output: "Won't you be my neighbor?"
+
+## License
+
+_[MIT](https://opensource.org/licenses/MIT) (c) 2021 Araceli Valdovinos_
+
+## Contact Information
+
+_Araceli Valdovinos araceli.valdovinos@outlook.com_
