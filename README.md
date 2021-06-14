@@ -61,6 +61,11 @@ _Code: else if (output[j].toString().includes("2")){_
 _output[j] = "Boop!"_
 _Expected Output: "["0,1,Boop!,3"]"_
 
+_Test: "It will replace "1" in the range of numbers with "Beep!"_
+_Code: else if (output[j].toString().includes("1")){_
+_output[j] = "Beep!"_
+_Expected Output: "["0,Beep!,2,3"]"_
+
 
 
 
