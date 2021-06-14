@@ -56,6 +56,10 @@ _Code: if (output[j].toString().includes("3")) {_
 _output[j] = "Won't you be my neighbor?"}_
 _Expected Output: "["0,1,2,Won't you be my neighbor?"]"_
 
+_Test: "It will replace "2" in the range of numbers with "Boop!"_
+_Code: else if (output[j].toString().includes("2")){_
+_output[j] = "Boop!"_
+_Expected Output: "["0,1,Boop!,3"]"_
 
 
 

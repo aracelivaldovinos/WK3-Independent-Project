@@ -22,14 +22,17 @@ function beepBoop(userNum) {
     for (let j=0; j < output.length; j++){
       if (output[j].toString().includes("3")) {
         output[j] = "Won't you be my neighbor?"
+      }
+      else if (output[j].toString().includes("2"))  {
+        output[j] = "Boop!"
         string = output.join().split(", ")
-  
-  return string
+        return string
+      }
       }
 
     
 }  
-}
+
 
 
 
